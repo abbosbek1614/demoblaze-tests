@@ -1,0 +1,13 @@
+{
+  "name": "demoblaze-playwright-tests",
+  "version": "1.0.0",
+  "description": "Playwright test suite for demoblaze.com using Page Object Model",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}
